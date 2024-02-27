@@ -36,3 +36,14 @@ async def send_mail(to: str = Body(...), subject: str = Body(...), body: str = B
         logging.error(f"Failed to send mail: {e}")
         logging.error(traceback.format_exc())
         raise HTTPException(status_code=500, detail=f"Failed to send mail: {str(e)}")
+
+
+
+
+
+
+
+
+
+
+Hello beta
